@@ -1,0 +1,5 @@
+1.设置hint
+SpannableString spannableString = new SpannableString(hint);
+AbsoluteSizeSpan absoluteSizeSpan = new AbsoluteSizeSpan(13, true);
+spannableString.setSpan(absoluteSizeSpan, 0, spannableString.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+editText.setHint(new SpannableString(spannableString));
