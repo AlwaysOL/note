@@ -1,0 +1,10 @@
+1.git init
+7.touch .gitignore
+8.vim .gitignore  然后保存要忽略的文件
+2.git add .时
+3.git commit -m ""
+4.git remote add origin 要传到的仓库域名
+5.git pull origin master
+6.git push -u origin master
+
+
